@@ -28,8 +28,10 @@ public class lab12 {
 		double length = scnr.nextDouble();
 		double width = scnr.nextDouble();
 		double height = scnr.nextDouble();
-		double area =  (length * width * height)/3;
-		System.out.println("Area is: "+ area);
+		double volume =  (length * width * height)/3;
+		double baseArea = length * width;
+		System.out.println("Area is: "+ baseArea);
+		System.out.println("Volue is: "+ volume);
 		
 	}
 
